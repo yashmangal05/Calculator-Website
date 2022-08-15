@@ -31,12 +31,17 @@ button {
     height: 65%;
     border-radius: 5px;
     font-size: 28px;
-    background-color: white;
+    cursor: pointer;
 }
 
 button:hover {
     border-radius: 20%;
     background-color: #abb776;
+    transform: translateY(-2px);
+    border-right: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    border-top: none;
+    border-left: none;
 }
 
 .AC {
